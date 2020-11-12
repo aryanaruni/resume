@@ -1,0 +1,161 @@
+.about-me-title {
+  margin-top: 10px;
+  padding-top: 15px;
+  padding-left: 30px;
+}
+
+.about-me-title h2 {
+  font-weight: 800;
+}
+.about-me-title h2 span {
+  color: rgb(255, 180, 0);
+}
+
+.personal-info-head {
+  margin-top: 10px;
+  padding-top: 15px;
+  padding-left: 30px;
+}
+.personal-info-head h5 {
+  font-weight: 600;
+}
+.personal-info-head span {
+  color: rgb(255, 180, 0);
+}
+/* ***********        personal details        **************** */
+
+.about-list li {
+  margin: 15px 0px;
+  vertical-align: text-bottom;
+  padding-left: 15px;
+  font-size: 1.2rem;
+}
+.title {
+  color: #c4c4c4b9;
+}
+.value {
+  color: rgb(255, 255, 255);
+}
+
+/* ***********       personal details        **************** */
+.box-stats {
+  border: 1px solid #313131;
+  padding: 5px 0px 5px 25px;
+  margin: 5px 0px;
+  border-radius: 5px;
+  width: 80%;
+}
+.box-stats h3 {
+  color: rgb(255, 180, 0);
+  font-weight: 600;
+  font-size: 2rem;
+}
+.box-stats p {
+  color: #c4c4c4b9;
+  margin-bottom: 0px;
+}
+
+.skill-meter-text {
+  text-align: center;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+/* *******************   EDUCATION ******************** */
+
+.education-container {
+  margin: 20px 40px 50px 40px;
+  width: 70%;
+  color: #c4c4c4b9;
+}
+.education-icon i {
+  background-color: rgb(255, 180, 0);
+  color: #ffffff;
+  padding: 10px;
+  border-radius: 50%;
+  font-size: 1.4em;
+}
+.education-icon span {
+  width: 90px;
+  height: 1px;
+  background: rgb(255 180 0);
+  transform: rotate(90deg);
+  position: absolute;
+  top: 86px;
+  left: -9px;
+}
+
+.education-box span {
+  padding: 5px 10px;
+  font-size: 1.1em;
+  margin-left: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: #302d3482;
+  border-radius: 30px;
+}
+.education-box h5 {
+  padding: 5px 10px;
+  margin-left: 15px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  padding: 0px;
+  text-transform: uppercase;
+}
+.education-box h6 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 5px 10px;
+  margin-left: 15px;
+  padding: 0px;
+  font-size: 1.3rem;
+  color: #c4c4c4b9;
+  margin-top: 10px;
+}
+.education-box p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 5px 10px;
+  margin-left: 15px;
+  padding: 0px;
+  font-size: 1.3rem;
+  color: #c4c4c4b9;
+  margin-top: 5px;
+}
+.portfolio-btn {
+  display: block;
+  margin: 5px auto;
+}
+
+.profile-pic {
+  width: 300px;
+  height: 300px;
+  margin: 100px auto 40px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 13px 2px #363636;
+  display: block;
+  background: url(../images/aryan-circle-pic.jpg);
+  background-position: center center;
+  background-size: cover;
+  padding: 20px;
+}
+.about-Box{
+  margin: 2px auto;
+  width: 100%;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.pic-box{
+
+  width: 360px;
+  margin-right: 40px;
+
+}
+
+.personal-details-box{
+
+  margin-left: 0px;
+}

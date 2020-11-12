@@ -1,0 +1,122 @@
+/* ****************    MAX-900PX      **************** */
+@media (max-width: 900px) {
+  .about-list li {
+    font-size: 1.2rem;
+    padding-left: 20px;
+    margin-left: 20px;
+  }
+  .personal-info-head h5 {
+    font-weight: 600;
+    font-size: 1.6rem;
+  }
+  .education-container {
+    width: 80%;
+    margin: 20px 0px 50px 0px;
+  }
+  .pic-box {
+    margin-right: 40px;
+    width: unset;
+    margin: 10px auto;
+  }
+  .profile-pic {
+    margin: 100px auto 40px;
+  }
+  .personal-details-box {
+    margin: 10px auto;
+    width: fit-content;
+  }
+  .about-Box{
+    margin: 2px auto;
+    width: 100%;
+    display: block;
+   
+  }
+}
+
+/* ****************    MAX-448px      **************** */
+@media (max-width: 448px) {
+  .about-list li {
+    padding-left: 10px;
+    margin-left: 20px;
+    padding-right: 10px;
+    font-size: 1rem;
+  }
+  .box-stats {
+    padding: 5px 0px 5px 10px;
+    width: 100%;
+  }
+  .pic-box {
+   width: unset;
+
+    margin: 10px auto;
+  }
+  .profile-pic {
+    width: 250px;
+    height: 250px;
+  }
+  /* *******************   EDUCATION ******************** */
+  .education-container {
+    width: 100%;
+    margin: 20px 0px 50px 0px;
+  }
+  .education-box span {
+    font-size: 0.9rem;
+  }
+  .education-box h5 {
+    font-size: 1.1rem;
+  }
+  .education-box h6 {
+    font-size: 1.1rem;
+  }
+  .education-box p {
+    font-size: 1.1rem;
+  }
+}
+
+/* ****************    MIN-900px &   MAX-1024PX      **************** */
+
+@media (min-width: 901px) and (max-width: 1024px) {
+  .pic-box {
+    width: 330px;
+    margin-right: 0px;
+  }
+  .personal-details-box .col-5{
+    padding: 0px;
+  }
+}
+
+/* ****************    MIN-1025px &   MAX-1160px      **************** */
+@media (min-width: 1025px) and (max-width: 1160px) {
+}
+@media (min-width: 901px) {
+  .fixed-on-right {
+    position: fixed;
+  }
+  .about-me-title {
+    text-align: center;
+    font-size: 3.4rem;
+    margin-top: 41px;
+  }
+  .about-me-title h2 {
+    font-size: 3.4rem;
+  }
+  .personal-info-head {
+    text-align: center;
+    font-size: 2rem;
+  }
+  .personal-info-head h5 {
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 0px;
+  }
+  .personal-info-head p {
+    text-align: center;
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+    color: #c4c4c4b9;
+  }
+  .about-Box {
+    display: -ms-flexbox !important;
+    display: flex !important;
+  }
+}

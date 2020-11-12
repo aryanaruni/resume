@@ -1,0 +1,220 @@
+/* ****************    MAX-900PX      **************** */
+@media (max-width: 900px) {
+  .header {
+    align-items: center;
+    overflow: hidden;
+    background-color: rgb(33, 37, 41);
+    height: unset;
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    opacity: 0.9;
+  }
+  .header-ul {
+    position: initial;
+    padding-top: 65px;
+    display: none;
+    overflow-x: hidden;
+  }
+  .header-ul li {
+    padding: 5px;
+    border-radius: 0%;
+    font-size: 1em;
+    text-align: -webkit-match-parent;
+  }
+  .header-ul li:hover,
+  .header-ul li i:hover,
+  .header-ul li.active {
+    color: rgb(255, 180, 0);
+    background-color: unset;
+  }
+  .header-ul li i {
+    cursor: pointer;
+    font-size: 2em;
+    margin-right: 5px;
+    padding-right: 10px;
+    display: inline-block;
+  }
+  .icon-box {
+    display: flex;
+  }
+  .icon-box a {
+    padding-left: 10px;
+    padding-top: 4px;
+  }
+  .icon-box a h4 {
+    display: inline-block;
+    transition: all 0.5s ease-in-out;
+  }
+  .icon-box a h4:hover {
+    color: rgb(255, 180, 0);
+    background-color: unset;
+  }
+  /* ********    TO SHOW NAVBAR ---CLASS INJECTED BY JS    ********** */
+
+  .header-ul.show {
+    display: flex;
+  }
+  /* ********    TO HIDE NAVBAR ---CLASS INJECTED BY JS    ********** */
+
+  .header-ul.hide {
+    display: none;
+  }
+  /* ********hamburg********** */
+  .menu-btn {
+    position: absolute;
+    top: 40px;
+    right: 5px;
+    display: flex;
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+  }
+  .menu-btn__burger {
+    width: 50px;
+    height: 4px;
+    background: #fff;
+
+    box-shadow: 0 2px 5px rgba(255, 101, 47, 0.2);
+    transition: all 0.5s ease-in-out;
+  }
+  .menu-btn__burger::before,
+  .menu-btn__burger::after {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 4px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(255, 101, 47, 0.2);
+    transition: all 0.5s ease-in-out;
+  }
+  .menu-btn__burger::before {
+    transform: translateY(-10px);
+  }
+  .menu-btn__burger::after {
+    transform: translateY(10px);
+  }
+  /* ANIMATION */
+  .menu-btn.open .menu-btn__burger {
+    transform: translateX(-50px);
+    background: transparent;
+    box-shadow: none;
+  }
+  .menu-btn.open .menu-btn__burger::before {
+    transform: rotate(45deg) translate(35px, -35px);
+  }
+  .menu-btn.open .menu-btn__burger::after {
+    transform: rotate(-45deg) translate(35px, 35px);
+  }
+
+  /* ********HOME YELLOW BG********** */
+  .home {
+    display: none;
+  }
+  /* *********************    ADDING A BACKGROUND IMAGE ****************/
+
+  .profile-pic {
+    width: 300px;
+    height: 300px;
+    margin: 100px auto 20px;
+
+    border-radius: 50%;
+    box-shadow: 0px 0px 13px 2px #363636;
+    display: block;
+    background: url(../images/aryan-circle-pic.jpg);
+    background-position: center center;
+    background-size: cover;
+  }
+  /* *********************ABOUT ME****************/
+
+  .about {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    position: unset;
+    top: unset;
+    max-width: unset;
+    display: block;
+  }
+  .about h1 {
+    font-weight: 800;
+    font-size: 2.2rem;
+  }
+  .about h5 {
+    line-height: unset;
+  }
+}
+/* ****************    MAX-448px      **************** */
+
+@media (max-width: 448px) {
+  .about {
+    width: 100%;
+  }
+  .about h1 {
+    font-size: 1.9rem;
+  }
+  .about h3 {
+    font-size: 1.5rem;
+  }
+  .about h5 {
+    font-size: 1rem;
+  }
+  .profile-pic {
+    width: 250px;
+    height: 250px;
+  }
+  .menu-btn {
+    width: 50px;
+  }
+  .menu-btn__burger {
+    width: 40px;
+    height: 2px;
+  }
+  .menu-btn__burger::before,
+  .menu-btn__burger::after {
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 2px;
+  }
+}
+/* ****************    MIN-901px &   MAX-1024PX      **************** */
+
+@media (min-width: 901px) and (max-width: 1024px) {
+  .profile-pic {
+    width: 350px;
+    margin-top: 8vh;
+    margin-bottom: 8vh;
+    margin-left: 5vh;
+  }
+  .about {
+    margin-left: 10px;
+  }
+  .about h5 {
+    line-height: unset;
+  }
+  .about h3 {
+    font-size: 1.7rem;
+  }
+  .about h1 {
+    font-size: 2rem;
+  }
+}
+/* ****************    MIN-901px &   MAX-990px      **************** */
+
+@media (min-width: 901px) and (max-width: 990px) {
+  .profile-pic {
+    width: 330px;
+  }
+}
+/* ****************    MIN-1025px &   MAX-1160px      **************** */
+
+@media (min-width: 1025px) and (max-width: 1160px) {
+  .profile-pic {
+    width: 370px;
+  }
+}
